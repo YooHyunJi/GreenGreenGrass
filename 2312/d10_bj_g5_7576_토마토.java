@@ -38,7 +38,7 @@ public class d10_bj_g5_7576_토마토 {
 				int newC = ripen[2]+dc[d];
 				if(canRipen(newR, newC)){
 					box[newR][newC] = 1;
-					tomatos--;
+					if(--tomatos==0) return days+1;
 					queue.offerLast(new int[] {days+1, newR, newC});
 				}
 			}
