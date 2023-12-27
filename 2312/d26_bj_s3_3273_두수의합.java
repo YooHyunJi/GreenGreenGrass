@@ -3,7 +3,7 @@ package a2312;
 import java.io.*;
 import java.util.*;
 
-public class d26_bj_s3_두수의합 {
+public class d26_bj_s3_3273_두수의합 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
