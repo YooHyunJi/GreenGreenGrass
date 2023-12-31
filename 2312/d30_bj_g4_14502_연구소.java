@@ -3,7 +3,7 @@ package a2312;
 import java.io.*;
 import java.util.*;
 
-public class d30_bj_g4_연구소 {
+public class d30_bj_g4_14502_연구소 {
     static int N, M, C, answer = -1;
     static int[] columns, dr = {-1, 0, 1, 0}, dc = {0, 1, 0, -1};
     static int[][] map, copy;
