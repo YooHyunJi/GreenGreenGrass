@@ -28,7 +28,7 @@ public class d31_bj_s4_28125_2023아주머학교프로그래딩정시머힌 {
             }
             idx++;
         }
-        if(cnt>=(result.length()+1)/2) return "I don't understand";
+        if(cnt>=(result.length()+1)/2){ return "I don't understand"; }
         return result.toString();
     }
 
