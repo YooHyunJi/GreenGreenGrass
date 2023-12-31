@@ -1,9 +1,8 @@
 package a2312;
 
 import java.io.*;
-import java.util.*;
 
-public class d31_bj_b5_코드마스터2023 {
+public class d31_bj_b5_28235_코드마스터2023 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         switch (br.readLine()){
