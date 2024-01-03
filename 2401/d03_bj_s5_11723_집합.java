@@ -8,7 +8,7 @@ public class d03_bj_s5_11723_집합 {
 
     static void add(int x){ set.add(x); }
     static void remove(int x){ set.remove(x); }
-    static void check(int x){ System.out.println(set.contains(x)? 1: 0); }
+    static int check(int x){ return set.contains(x)? 1: 0; }
     static void toggle(int x){
         if(set.contains(x)){ remove(x); }
         else { add(x); }
@@ -21,6 +21,7 @@ public class d03_bj_s5_11723_집합 {
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
         int M = Integer.parseInt(br.readLine());
         for(int m=0; m<M; m++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
@@ -32,7 +33,7 @@ public class d03_bj_s5_11723_집합 {
                     remove(Integer.parseInt(st.nextToken()));
                     break;
                 case "check":
-                    check(Integer.parseInt(st.nextToken()));
+                    sb.append(check(Integer.parseInt(st.nextToken()))).append("\n");
                     break;
                 case "toggle":
                     toggle(Integer.parseInt(st.nextToken()));
@@ -45,5 +46,6 @@ public class d03_bj_s5_11723_집합 {
                     break;
             }
         }
+        System.out.println(sb);
     }
 }
