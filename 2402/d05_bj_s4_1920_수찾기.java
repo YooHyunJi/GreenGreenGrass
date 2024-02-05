@@ -3,7 +3,7 @@ package a2402;
 import java.io.*;
 import java.util.*;
 
-public class d04_bj_s4_1920_수찾기 {
+public class d05_bj_s4_1920_수찾기 {
     static int[] arr;
     static StringBuilder sb = new StringBuilder();
 
