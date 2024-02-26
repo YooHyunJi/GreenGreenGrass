@@ -3,7 +3,7 @@ package a2402;
 import java.io.*;
 import java.util.*;
 
-public class d25_bj_s4_등수구하기 {
+public class d25_bj_s4_1205_등수구하기 {
     public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
