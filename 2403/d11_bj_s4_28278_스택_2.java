@@ -13,10 +13,10 @@ public class d11_bj_s4_28278_스택_2 {
             StringTokenizer st = new StringTokenizer(br.readLine());
             switch (st.nextToken()){
                 case "1": stack.offerLast(st.nextToken()); break;
-                case "2": sb.append(stack.isEmpty()? "-1\n": stack.pollLast()).append("\n"); break;
+                case "2": sb.append(stack.isEmpty()? "-1": stack.pollLast()).append("\n"); break;
                 case "3": sb.append(stack.size()).append("\n"); break;
                 case "4": sb.append(stack.isEmpty()? "1": "0").append("\n"); break;
-                case "5": sb.append(stack.isEmpty()? "-1\n": stack.peekLast()).append("\n"); break;
+                case "5": sb.append(stack.isEmpty()? "-1": stack.peekLast()).append("\n"); break;
             }
         }
         System.out.println(sb);
