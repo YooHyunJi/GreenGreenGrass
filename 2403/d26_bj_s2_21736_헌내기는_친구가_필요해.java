@@ -13,9 +13,7 @@ public class d26_bj_s2_21736_헌내기는_친구가_필요해 {
         int[] doyeon = new int[2];
         for(int n=0; n<N; n++){
             school[n] = br.readLine().toCharArray();
-            for(int m=0; m<M; m++){
-                if(school[n][m] == 'I'){ doyeon = new int[] {n, m}; }
-            }
+            for(int m=0; m<M; m++){ if(school[n][m] == 'I'){ doyeon = new int[] {n, m}; } }
         }
         int result = BFS(N, M, doyeon, school);
         System.out.println(result==0? "TT": result);
