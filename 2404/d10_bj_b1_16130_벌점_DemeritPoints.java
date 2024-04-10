@@ -1,9 +1,8 @@
 package a2404;
 
 import java.io.*;
-import java.util.*;
 
-public class d11_bj_b1_16130_벌점_DemeritPoints {
+public class d10_bj_b1_16130_벌점_DemeritPoints {
     public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
