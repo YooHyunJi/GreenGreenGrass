@@ -51,6 +51,7 @@ public class d27_bj_s5_4378_트ㅏㅊ {
         map.put(',', 'M');
         map.put('.', ',');
         map.put('/', '.');
+
         String str = "";
         while((str = br.readLine()) != null && !str.isEmpty()){
             char[] line = str.toCharArray();
