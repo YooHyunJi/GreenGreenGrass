@@ -19,12 +19,8 @@ public class d20_bj_g5_7983_내일_할거야 {
             int[] now = pq.poll();
             int start = now[0];
             int end = now[1];
-            if(end <= idx){
-                idx = end-start;
-            }
-            else{
-                idx = end - start - (end - idx);
-            }
+            if(end <= idx){ idx = end-start; }
+            else{ idx = end - start - (end - idx); }
         }
         System.out.println(idx);
     }
