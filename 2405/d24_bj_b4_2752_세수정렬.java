@@ -3,7 +3,7 @@ package a2405;
 import java.io.*;
 import java.util.*;
 
-public class d25_bj_b4_2752_세수정렬 {
+public class d24_bj_b4_2752_세수정렬 {
     public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
