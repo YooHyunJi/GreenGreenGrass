@@ -1,16 +1,6 @@
-/*
- * | 활용 알고리즘 | 중복 순열
- *
- * | 접근 방법 |
- *  1. 이모티콘 할인률에 대한 중복 순열을 만든다
- *  2. 순열이 완성될 때마다 아래 과정을 반복한다
- *     2-1. 각 유저에 대해 이모티콘을 살지 / 이모티콘 플러스에 가입할지 구한다
- *     2-2. 결과에 따라 최대값을 갱신한다
- */
+package a2405;
 
-package a2405.study.week14;
-
-public class pr_2_150368_이모티콘_할인행사 {
+public class d30_pr_2_150368_이모티콘_할인행사 {
     static int lenUser, lenEmoticons, answerUser = 0, answerPrice = 0;
     static int[] perm, percentages = { 10, 20, 30, 40 };
 
