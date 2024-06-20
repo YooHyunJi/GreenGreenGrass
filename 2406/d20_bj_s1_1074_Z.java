@@ -3,7 +3,7 @@ package a2406;
 import java.io.*;
 import java.util.*;
 
-public class d19_bj_s1_1074_Z {
+public class d20_bj_s1_1074_Z {
     static int N, R, C, cnt = 0;
     static boolean isFinished = false;
     static int[] dr = {0, 0, 1, 1}, dc = {0, 1, 0, 1};
