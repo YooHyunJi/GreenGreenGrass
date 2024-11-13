@@ -2,7 +2,7 @@ package a2411;
 
 import java.io.*;
 
-public class d13bj_s5_10384_팬그램 {
+public class d13_bj_s5_10384_팬그램 {
     public static void main(String[] args) throws Exception{
         StringBuilder sb = new StringBuilder();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
