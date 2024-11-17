@@ -23,12 +23,7 @@ public class d18_bj_s1_1743_음식물_피하기 {
             int c = Integer.parseInt(st.nextToken()) - 1;
             map[r][c] = true;
         }
-//        for(int n=0; n<N; n++){
-//            for(int m=0; m<M; m++){
-//                System.out.print(map[n][m]? '#': '.');
-//            }
-//            System.out.println();
-//        }
+        
         int answer = 0;
         for(int n=0; n<N; n++){
             for(int m=0; m<M; m++){
